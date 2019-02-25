@@ -1,0 +1,101 @@
+﻿<Window x:Class="ArchivoWindows.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ArchivoWindows"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+        <WrapPanel HorizontalAlignment="Left" Height="125" Margin="191,47,0,0" VerticalAlignment="Top" Width="601">
+            <Rectangle Fill="#FFF4F4F5" Height="61" Stroke="Black" Width="70"/>
+            <StackPanel Height="49" Width="76">
+                <Label Content="Escritorio"/>
+                <Label Content="Este Equipo"/>
+            </StackPanel>
+            <Rectangle Fill="#FFF4F4F5" Height="61" Stroke="Black" Width="70"/>
+            <StackPanel Height="49" Width="76">
+                <Label Content="Descargas"/>
+                <Label Content="Este Equipo"/>
+            </StackPanel>
+            <Rectangle Fill="#FFF4F4F5" Height="61" Stroke="Black" Width="70"/>
+            <StackPanel Height="49" Width="76">
+                <Label Content="Documentos"/>
+                <Label Content="Este Equipo"/>
+            </StackPanel>
+            <Rectangle Fill="#FFF4F4F5" Height="61" Stroke="Black" Width="70"/>
+            <StackPanel Height="49" Width="76">
+                <Label Content="Imagenes"/>
+                <Label Content="Este Equipo"/>
+            </StackPanel>
+            <Rectangle Fill="#FFF4F4F5" Height="61" Stroke="Black" Width="70"/>
+            <StackPanel Height="49" Width="76">
+                <Label Content="KaledoStyle"/>
+                <Label Content="Este Equipo"/>
+            </StackPanel>
+            <Rectangle Fill="#FFF4F4F5" Height="61" Stroke="Black" Width="70"/>
+            <StackPanel Height="49" Width="76">
+                <Label Content="Lectra"/>
+                <Label Content="Este Equipo"/>
+            </StackPanel>
+            <Rectangle Fill="#FFF4F4F5" Height="61" Stroke="Black" Width="70"/>
+            <StackPanel Height="49" Width="76">
+                <Label Content="Maya 2018"/>
+                <Label Content="Este Equipo"/>
+            </StackPanel>
+            <Rectangle Fill="#FFF4F4F5" Height="61" Stroke="Black" Width="70"/>
+            <StackPanel Height="49" Width="76">
+                <Label Content="Mudbox 2018"/>
+                <Label Content="Este Equipo"/>
+            </StackPanel>
+        </WrapPanel>
+        <Grid HorizontalAlignment="Left" Height="242" Margin="191,177,0,0" VerticalAlignment="Top" Width="601">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="20"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Label Grid.Column="1" Grid.Row="0">Captura de pantalla(1)</Label>
+            <Label Grid.Column="1" Grid.Row="1">ArchivoWindows.sln</Label>
+            <Label Grid.Column="1" Grid.Row="2">EjemploWPF.sln</Label>
+            <Label Grid.Column="1" Grid.Row="3">1 Base inferior</Label>
+            <Label Grid.Column="1" Grid.Row="4">2 base superior</Label>
+            <Label Grid.Column="1" Grid.Row="5">3 pin largo</Label>
+            <Label Grid.Column="1" Grid.Row="6">4 pin corto</Label>
+            <Label Grid.Column="1" Grid.Row="7">5 Eslabon</Label>
+            <Label Grid.Column="1" Grid.Row="8">6 Pivote</Label>
+            <Label Grid.Column="1" Grid.Row="9">7 eje</Label>
+            <Label Grid.Column="2" Grid.Row="9">Este equipo/Descargas</Label>
+            <Label Grid.Column="2" Grid.Row="8">Este equipo/Descargas</Label>
+            <Label Grid.Column="2" Grid.Row="7">Este equipo/Descargas</Label>
+            <Label Grid.Column="2" Grid.Row="6">Este equipo/Descargas</Label>
+            <Label Grid.Column="2" Grid.Row="5">Este equipo/Descargas</Label>
+            <Label Grid.Column="2" Grid.Row="4">Este equipo/Descargas</Label>
+            <Label Grid.Column="2" Grid.Row="3">Este equipo/Descargas</Label>
+            <Label Grid.Column="2" Grid.Row="2">Este equipo/Descargas</Label>
+            <Label Grid.Column="2" Grid.Row="1">Este equipo/Descargas</Label>
+            <Label Grid.Column="2" Grid.Row="0">Este equipo/Descargas</Label>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="372" Margin="0,47,0,0" VerticalAlignment="Top" Width="186"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="132,22,0,0" TextWrapping="Wrap" Text="Acceso Rapido" VerticalAlignment="Top" Width="465" TextChanged="TextBox_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="616,22,0,0" TextWrapping="Wrap" Text="Buscar en acceso rapido" VerticalAlignment="Top" Width="166"/>
+        <Button Content="Archivo" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Background="#FF3C4CEC" Foreground="White" BorderBrush="White" />
+        <Button Content="Inicio" HorizontalAlignment="Left" Margin="75,0,0,0" VerticalAlignment="Top" Width="75" BorderBrush="White" Background="White"/>
+        <Button Content="Compartir" HorizontalAlignment="Left" Margin="150,0,0,0" VerticalAlignment="Top" Width="75" BorderBrush="White" Background="White"/>
+        <Button Content="Vista" HorizontalAlignment="Left" Margin="225,0,0,0" VerticalAlignment="Top" Width="75" BorderBrush="White" Background="White"/>
+        <Button Content="Administrar" HorizontalAlignment="Left" Margin="305,0,0,0" VerticalAlignment="Top" Width="75" BorderBrush="White" Background="White"/>
+    </Grid>
+</Window>
