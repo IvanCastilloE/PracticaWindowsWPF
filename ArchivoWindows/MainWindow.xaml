@@ -68,6 +68,17 @@
                 <RowDefinition></RowDefinition>
                 <RowDefinition></RowDefinition>
             </Grid.RowDefinitions>
+            <Rectangle Fill="#FFF4F4F5" Height="61" Stroke="Black" Width="70" Grid.Row="0"/>
+            <Rectangle Fill="#FFF4F4F5" Height="61" Stroke="Black" Width="70" Grid.Row="1"/>
+            <Rectangle Fill="#FFF4F4F5" Height="61" Stroke="Black" Width="70" Grid.Row="2"/>
+            <Rectangle Fill="#FFF4F4F5" Height="61" Stroke="Black" Width="70" Grid.Row="3"/>
+            <Rectangle Fill="#FFF4F4F5" Height="61" Stroke="Black" Width="70" Grid.Row="4"/>
+            <Rectangle Fill="#FFF4F4F5" Height="61" Stroke="Black" Width="70" Grid.Row="5"/>
+            <Rectangle Fill="#FFF4F4F5" Height="61" Stroke="Black" Width="70" Grid.Row="6"/>
+            <Rectangle Fill="#FFF4F4F5" Height="61" Stroke="Black" Width="70" Grid.Row="7"/>
+            <Rectangle Fill="#FFF4F4F5" Height="61" Stroke="Black" Width="70" Grid.Row="8"/>
+            <Rectangle Fill="#FFF4F4F5" Height="61" Stroke="Black" Width="70" Grid.Row="9"/>
+
             <Label Grid.Column="1" Grid.Row="0">Captura de pantalla(1)</Label>
             <Label Grid.Column="1" Grid.Row="1">ArchivoWindows.sln</Label>
             <Label Grid.Column="1" Grid.Row="2">EjemploWPF.sln</Label>
@@ -89,7 +100,18 @@
             <Label Grid.Column="2" Grid.Row="1">Este equipo/Descargas</Label>
             <Label Grid.Column="2" Grid.Row="0">Este equipo/Descargas</Label>
         </Grid>
-        <Grid HorizontalAlignment="Left" Height="372" Margin="0,47,0,0" VerticalAlignment="Top" Width="186"/>
+        <Grid HorizontalAlignment="Left" Height="372" Margin="0,47,0,0" VerticalAlignment="Top" Width="186">
+            <Button Content="Documentos" HorizontalAlignment="Left" Height="29" Margin="57,79,0,0" VerticalAlignment="Top" Width="104" Background="White" BorderBrush="White"/>
+            <Button Content="Descargas" HorizontalAlignment="Left" Height="29" Margin="57,113,0,0" VerticalAlignment="Top" Width="104" Background="White" BorderBrush="White"/>
+            <Button Content="Escritorio" HorizontalAlignment="Left" Height="29" Margin="57,147,0,0" VerticalAlignment="Top" Width="104" Background="White" BorderBrush="White"/>
+            <Button Content="Imagenes" HorizontalAlignment="Left" Height="29" Margin="57,181,0,0" VerticalAlignment="Top" Width="104" Background="White" BorderBrush="White"/>
+            <Rectangle Fill="#FFF4F4F5" Stroke="Black" Margin="34,79,129,264"/>
+            <Rectangle Fill="#FFF4F4F5" Stroke="Black" Margin="34,113,129,230"/>
+            <Rectangle Fill="#FFF4F4F5" Stroke="Black" Margin="34,147,129,196" RenderTransformOrigin="0.304,2.172"/>
+            <Rectangle Fill="#FFF4F4F5" Stroke="Black" Margin="34,181,129,162" RenderTransformOrigin="0.652,0.966"/>
+            <Button Content="Esta PC" HorizontalAlignment="Left" Height="29" Margin="33,45,0,0" VerticalAlignment="Top" Width="104" Background="White" BorderBrush="White" Click="Button_Click"/>
+            <Rectangle Fill="#FFF4F4F5" Stroke="Black" Margin="10,45,153,298"/>
+        </Grid>
         <TextBox HorizontalAlignment="Left" Height="20" Margin="132,22,0,0" TextWrapping="Wrap" Text="Acceso Rapido" VerticalAlignment="Top" Width="465" TextChanged="TextBox_TextChanged"/>
         <TextBox HorizontalAlignment="Left" Height="20" Margin="616,22,0,0" TextWrapping="Wrap" Text="Buscar en acceso rapido" VerticalAlignment="Top" Width="166"/>
         <Button Content="Archivo" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Background="#FF3C4CEC" Foreground="White" BorderBrush="White" />
